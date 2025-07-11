@@ -17,3 +17,7 @@ def verificar_nota(nota):
         return "Recuperação"
     else:
         return "Reprovado"
+
+print(verificar_nota(6))   
+print(verificar_nota(4))   
+print(verificar_nota(2))  
