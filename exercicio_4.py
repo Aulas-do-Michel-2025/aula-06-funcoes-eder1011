@@ -9,15 +9,5 @@ Mas você não precisa escrever a lógica para saber se o número é primo: voc�
 """
 
 
-def verificar_se_eh_primo(numero):
-    if numero > 1:
-        for i in range(2, int(numero / 2) + 1):
-            if (numero % i) == 0:
-                return False
-        return True
-    return False
-
-
-def filtrar_lista_por_numeros_primos(lista):
-    lista_filtrada = []
-    return lista_filtrada
+def filtrar_primos(lista):
+    return [numero for numero in lista if verificar_se_eh_primo(numero)]
