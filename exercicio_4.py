@@ -20,5 +20,4 @@ def verificar_se_eh_primo(numero):
 
 def filtrar_lista_por_numeros_primos(lista):
     lista_filtrada = []
-    # Completar funcao aqui!
     return lista_filtrada
