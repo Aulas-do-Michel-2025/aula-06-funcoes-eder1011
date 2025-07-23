@@ -8,4 +8,10 @@ Exemplo de uso:
 >>> print(calcular_media([0, 100, 200]))
 >>> 100
 """
+def calcular_media(numeros):
+    if not numeros:
+        return 0  
+    return sum(numeros) / len(numeros)
 
+
+print(calcular_media([0, 100, 200]))  
